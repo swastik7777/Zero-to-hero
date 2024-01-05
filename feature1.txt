@@ -1,0 +1,55 @@
+uname
+uptime
+date 
+who
+whoami
+which
+sudo
+id
+shutdown
+reboot
+apt,yum dnf pacman portage rpm
+
+user management
+sudo useradd -m user_name
+sudo userdel user_name
+sudo passwd user_name
+cd /etc/passwd
+cd /etc/group
+sudo groupadd group_name
+sudo gpasswd -a user_name group_name
+sudo gpasswd -M username1,username2 group_name
+sudo groupdel group_name
+
+file management 
+ls -l 
+chmod 777 file_name
+chown ower_name file_name
+chgrp grp_name file_name
+
+compress command 
+zip file_name.zip filename
+tar -cvzf compress_filename.tar.gz filename
+tar -xvzf compress_filename.tar.gz filename
+
+git commands
+
+git init
+git add 
+git commit -m "message"
+git status
+git log 
+git log --oneline --pretty
+git log --oneline
+git rm --cached filename
+git restore
+git branch
+git checkout -b branch_name
+git remote -v
+git push 
+git pull
+git fetch
+git set-url --add origin new_url
+git clone http://
+git config --global user.name "swastik"
+git config --global user.email "swastikgomase@gmail.com"
